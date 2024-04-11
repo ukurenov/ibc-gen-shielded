@@ -1,0 +1,2 @@
+LEDGER_ADDRESS_B = "http://127.0.0.1:26657"
+PORT = 3000
