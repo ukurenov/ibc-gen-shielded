@@ -5,8 +5,6 @@ from config import LEDGER_ADDRESS_B, PORT
 
 app = Flask(__name__)
 
-LEDGER_ADDRESS_B = "your_ledger_address_here"
-
 @app.route('/', methods=['POST'])
 def process_request():
     data = request.get_json()
