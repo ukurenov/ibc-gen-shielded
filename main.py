@@ -33,8 +33,11 @@ def process_request():
 
         if match:
             path = match.group("path")
-            full_path = f"./data/{path}"
-            return jsonify({'full_path': full_path}), 200
+            full_path = f"./{path}"
+            with open(full_path, 'r') as file:
+                data = file.read()
+                
+            return data, 200
         else:
             return jsonify({'error': 'Path not found in response'}), 500
 
