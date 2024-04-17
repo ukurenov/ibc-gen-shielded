@@ -16,7 +16,7 @@ python main.py
 ##### PORT - server port
 
 ## RPC config for generate 
-##### POST - https://gen-shieleded.namada.guru
+##### POST - https://gen-shielded.namada.guru
 #### Data:
 ```
 {
