@@ -17,7 +17,7 @@ python main.py
 
 ## RPC config for generate 
 ##### POST - https://gen-shielded.namada.guru
-#### Data:
+#### Body:
 ```
 {
     "target": "IBC ZNAM address receiver",
