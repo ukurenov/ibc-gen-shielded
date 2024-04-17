@@ -26,3 +26,5 @@ python main.py
     "channel": "Channel-id"
 }
 ```
+
+### Response: String
